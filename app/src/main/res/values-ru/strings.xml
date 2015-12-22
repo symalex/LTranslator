@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- App titles -->
+	<string name="app_name">LTranslate</string>
+	<string name="app_bar_main_title">Переводчик</string>
+	<string name="app_bar_history_title">История</string>
+	<string name="app_bar_favorite_title">Закладки</string>
+	<string name="app_bar_settings_title">Настройки</string>
+
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+
+	<string name="action_settings">Настройки</string>
+	<string name="action_clear_text">Очистить</string>
+	<string name="action_clipboard_copy">Копировать</string>
+	<string name="action_clipboard_copy_translation">Копировать перевод</string>
+	<string name="action_clipboard_paste">Вставить</string>
+	<string name="action_bookmark_history_item">В закладки</string>
+	<string name="action_delete_history_item">Удалить</string>
+	<string name="action_clear_selection">Очистить</string>
+
+	<!-- Yandex API -->
+	<string name="yandex_translate_api_ref">Переведено <a href="http://translate.yandex.ru/">«Яндекс.Переводчиком»</a></string>
+	<string name="yandex_translate_api_url">http://translate.yandex.ru/</string>
+	<string name="yandex_api_incorrect_key">Неверный API ключ!</string>
+	<string name="yandex_api_http_error_code">Ошибка HTTP: %d</string>
+	<string name="yandex_api_http_error_message">Ошибка HTTP: %s</string>
+
+	<!-- messages -->
+	<string name="msg_yandex_api_language_data_not_ready">Языковые данные не загружены</string>
+	<string name="msg_splash_back_key_pressed">Нажата кнопка возврата</string>
+	<string name="msg_settings_source_lang_not_supported">Исходный язык: %s не поддерживается!</string>
+	<string name="msg_settings_destination_lang_not_supported">Язык перевода: %s не поддерживается!</string>
+
+	<string name="msg_main_source_lang_detected_as">Исходный язык определен как: %s</string>
+	<string name="msg_main_source_unknown_language">Текст на неизвестном языке</string>
+	<string name="msg_main_source_enter_text">Введите текст для перевода</string>
+	<string name="msg_main_source_text_info">Текст на %s языке</string>
+	<string name="msg_main_destination_text_info">Перевод на %s языке</string>
+
+	<!-- nav_bar -->
+	<string name="nav_bar_yandex_translator_text">Яндекс.Переводчик</string>
+	<string name="nav_bar_yandex_translator_url"><a href="https://translate.yandex.ru/">translate.yandex.ru</a></string>
+	<string name="nav_bar_home">Домой</string>
+	<string name="nav_bar_history">История</string>
+	<string name="nav_bar_favorites">Закладки</string>
+	<string name="nav_bar_settings">Настройки</string>
+	<string name="nav_bar_exit">Выход</string>
+
+	<!-- Settings page -->
+	<string name="settings_yandex_api_key_hint">API ключ (https://tech.yandex.ru/translate/)</string>
+	<string name="settings_autodetect_language">Автоопределение языка</string>
+	<string name="settings_source_language">Исходный язык</string>
+	<string name="settings_exchange_language">Обменять</string>
+	<string name="settings_result_language">Язык перевода</string>
+	<string name="settings_save">Сохранить</string>
+	<string name="settings_cancel">Отменить</string>
+
+	<!-- Confirm remove record -->
+	<string name="msg_remove_selected_item">Удалить запись?</string>
+	<string name="remove_selected_item_done">Да</string>
+	<string name="remove_selected_item_undo">Нет</string>
+
+	<!-- Favorite -->
+	<string name="msg_favorite_remove_selected_items">Удалить выбранные записи?</string>
+	<string name="msg_favorite_remove_selected_action">Удалить</string>
+
+	<!-- History -->
+	<string name="msg_history_remove_selected_items">Стереть выбранные записи?</string>
+	<string name="msg_history_remove_selected_action">Стереть</string>
+
+</resources>

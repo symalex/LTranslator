@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- App titles -->
+	<string name="app_name">LTranslate</string>
+	<string name="app_bar_main_title">Language translator</string>
+	<string name="app_bar_history_title">History</string>
+	<string name="app_bar_favorite_title">Favorite</string>
+	<string name="app_bar_settings_title">Settings</string>
+
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+
+	<string name="action_settings">Settings</string>
+	<string name="action_clear_text">Clear</string>
+	<string name="action_clipboard_copy">Copy</string>
+	<string name="action_clipboard_copy_translation">Copy translation</string>
+	<string name="action_clipboard_paste">Paste</string>
+	<string name="action_bookmark_history_item">Favorites</string>
+	<string name="action_delete_history_item">Delete</string>
+	<string name="action_clear_selection">Clear selection</string>
+
+	<!-- Yandex API -->
+	<string name="yandex_translate_api_ref">Powered by <a href="http://translate.yandex.com/">«Yandex.Translate»</a></string>
+	<string name="yandex_translate_api_url">http://translate.yandex.com/</string>
+	<string name="yandex_api_default_key">trnsl.1.1.20151126T092912Z.366a7389b1bb3869.ffe45722eda47f45e459a47a3a8048d68c844baa</string>
+	<string name="yandex_api_base_host_url">https://translate.yandex.net</string>
+	<string name="yandex_api_incorrect_key">Incorrect API key!</string>
+	<string name="yandex_api_http_error_code">HTTP error: %d</string>
+	<string name="yandex_api_http_error_message">HTTP error: %s</string>
+
+	<!-- messages -->
+	<string name="msg_yandex_api_language_data_not_ready">Language data not ready</string>
+	<string name="msg_splash_back_key_pressed">Back key pressed</string>
+	<string name="msg_settings_source_lang_not_supported">Source Language: %s not supported!</string>
+	<string name="msg_settings_destination_lang_not_supported">Destination Language: %s not supported!</string>
+
+	<string name="msg_main_source_lang_detected_as">The source language is defined as: %s</string>
+	<string name="msg_main_source_unknown_language">The text in an unknown language</string>
+	<string name="msg_main_source_enter_text">Enter the text for translation</string>
+	<string name="msg_main_source_text_info">The text in %s</string>
+	<string name="msg_main_destination_text_info">Displays %s translation</string>
+
+	<!-- nav_bar -->
+	<string name="nav_bar_yandex_translator_text">Yandex translator</string>
+	<string name="nav_bar_yandex_translator_url"><a href="https://translate.yandex.com/">translate.yandex.com</a></string>
+	<string name="nav_bar_home">Home</string>
+	<string name="nav_bar_history">History</string>
+	<string name="nav_bar_favorites">Favorites</string>
+	<string name="nav_bar_settings">Settings</string>
+	<string name="nav_bar_exit">Exit</string>
+
+	<!-- Settings page -->
+	<string name="settings_yandex_api_key_hint">Translate API key (https://tech.yandex.com/translate/)</string>
+	<string name="settings_autodetect_language">Autodetect text language</string>
+	<string name="settings_source_language">Source text language</string>
+	<string name="settings_exchange_language">Exchange</string>
+	<string name="settings_result_language">Result text language</string>
+	<string name="settings_save">Save</string>
+	<string name="settings_cancel">Cancel</string>
+
+	<!-- Confirm remove record -->
+	<string name="msg_remove_selected_item">Remove record?</string>
+	<string name="remove_selected_item_done">DONE</string>
+	<string name="remove_selected_item_undo">UNDO</string>
+
+	<!-- Favorite -->
+	<string name="msg_favorite_remove_selected_items">Remove selected records?</string>
+	<string name="msg_favorite_remove_selected_action">Remove</string>
+
+	<!-- History -->
+	<string name="msg_history_remove_selected_items">Remove selected records?</string>
+	<string name="msg_history_remove_selected_action">Remove</string>
+
+</resources>

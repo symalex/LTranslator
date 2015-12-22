@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/history_menu_action_go"
+		android:icon="@android:drawable/ic_menu_set_as"
+		android:title="Go"
+		app:showAsAction="ifRoom" />
+
+	<item
+		android:id="@+id/history_menu_action_bookmark"
+		android:icon="@android:drawable/ic_input_get"
+		android:orderInCategory="100"
+		android:title="@string/action_bookmark_history_item"
+		app:showAsAction="collapseActionView" />
+
+	<item
+		android:id="@+id/history_menu_action_clear_selection"
+		android:icon="@android:drawable/ic_delete"
+		android:orderInCategory="100"
+		android:title="@string/action_clear_selection"
+		app:showAsAction="ifRoom" />
+
+	<item
+		android:id="@+id/action_clipboard_copy"
+		android:orderInCategory="100"
+		android:title="@string/action_clipboard_copy"
+		app:showAsAction="never" />
+
+	<item
+		android:id="@+id/history_menu_action_delete"
+		android:icon="@android:drawable/ic_menu_delete"
+		android:orderInCategory="100"
+		android:title="@string/action_delete_history_item"
+		app:showAsAction="ifRoom" />
+
+</menu>

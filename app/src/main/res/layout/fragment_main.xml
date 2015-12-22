@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/fragment_main_root_it"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/content_main_error_state_text"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:text="No internet connection"
+		android:visibility="gone" />
+
+	<LinearLayout
+		android:id="@+id/content_main_layout_translate"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/fragment_main_top_text_info"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="Текст на Английском языке" />
+
+		<EditText
+			android:id="@+id/content_main_edit_text_top"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:layout_weight="1"
+			android:ems="10"
+			android:gravity="top|left"
+			android:inputType="textMultiLine"
+			android:lines="8"
+			android:minLines="6"
+			android:saveEnabled="true"
+			android:scrollbars="vertical" />
+
+		<TextView
+			android:id="@+id/fragment_main_bottom_text_info"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="Перевод на Русском языке" />
+
+		<EditText
+			android:id="@+id/content_main_edit_text_bottom"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/content_main_edit_text_top"
+			android:layout_weight="1"
+			android:ems="10"
+			android:focusable="false"
+			android:gravity="top|left"
+			android:inputType="textMultiLine"
+			android:lines="8"
+			android:minLines="6"
+			android:scrollbars="vertical" />
+
+		<TextView
+			android:id="@+id/fragment_main_yandex_text_ref"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="14dp"
+			android:paddingBottom="16dp"
+			android:gravity="start"
+			android:text="@string/yandex_translate_api_ref" />
+
+	</LinearLayout>
+
+</RelativeLayout>

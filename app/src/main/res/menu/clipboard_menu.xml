@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/action_clear_text"
+		android:orderInCategory="10"
+		android:title="@string/action_clear_text"
+		app:showAsAction="never" />
+
+	<item
+		android:id="@+id/action_clipboard_copy"
+		android:orderInCategory="10"
+		android:title="@string/action_clipboard_copy"
+		app:showAsAction="never" />
+
+	<item
+		android:id="@+id/action_clipboard_copy_translation"
+		android:orderInCategory="10"
+		android:title="@string/action_clipboard_copy_translation"
+		app:showAsAction="never" />
+
+	<item
+		android:id="@+id/action_clipboard_paste"
+		android:orderInCategory="10"
+		android:title="@string/action_clipboard_paste"
+		app:showAsAction="never" />
+
+</menu>

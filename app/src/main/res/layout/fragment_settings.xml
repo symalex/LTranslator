@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:id="@+id/fragment_settings_api_key"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/settings_yandex_api_key_hint" />
+
+	</android.support.design.widget.TextInputLayout>
+
+	<CheckBox
+		android:id="@+id/fragment_settings_autodetect"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/settings_autodetect_language" />
+
+	<TextView
+		android:id="@+id/fragment_settings_src_lang_info"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/settings_source_language" />
+
+	<Spinner
+		android:id="@+id/fragment_settings_src_lang"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<Button
+		android:id="@+id/fragment_settings_btn_swap"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="@string/settings_exchange_language" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/settings_result_language" />
+
+	<Spinner
+		android:id="@+id/fragment_settings_result_lang"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/fragment_settings_btn_ok"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/settings_save" />
+
+		<Button
+			android:id="@+id/fragment_settings_btn_cancel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/settings_cancel" />
+	</LinearLayout>
+
+</LinearLayout>
