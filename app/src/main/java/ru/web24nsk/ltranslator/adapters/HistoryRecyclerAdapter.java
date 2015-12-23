@@ -322,8 +322,8 @@ public class HistoryRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.Vi
 			String src_str, dst_str;
 			if (mLastClickedPosition != position)
 			{
-				src_str = helper.getOneLineText(hist_row.getSource(), 35);
-				dst_str = helper.getOneLineText(hist_row.getDestination(), 35);
+				src_str = helper.getOneLineText(hist_row.getSource(), 45);
+				dst_str = helper.getOneLineText(hist_row.getDestination(), 45);
 			}
 			else
 			{

@@ -314,8 +314,8 @@ public class FavoriteRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.V
 				String src_str, dst_str;
 				if (mLastClickedPosition != position)
 				{
-					src_str = helper.getOneLineText(frow.getHistory().getSource(), 35);
-					dst_str = helper.getOneLineText(frow.getHistory().getDestination(), 35);
+					src_str = helper.getOneLineText(frow.getHistory().getSource(), 45);
+					dst_str = helper.getOneLineText(frow.getHistory().getDestination(), 45);
 				}
 				else
 				{
