@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<!-- App titles -->
-	<string name="app_name">LTranslate</string>
-	<string name="app_bar_main_title">Language translator</string>
+	<string name="app_name">LTranslator</string>
+	<string name="app_bar_main_title">@string/app_name</string>
 	<string name="app_bar_history_title">History</string>
 	<string name="app_bar_favorite_title">Favorite</string>
 	<string name="app_bar_settings_title">Settings</string>
