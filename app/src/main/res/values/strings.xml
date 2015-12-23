@@ -22,8 +22,8 @@
 	<!-- Yandex API -->
 	<string name="yandex_translate_api_ref">Powered by <a href="http://translate.yandex.com/">«Yandex.Translate»</a></string>
 	<string name="yandex_translate_api_url">http://translate.yandex.com/</string>
-	<string name="yandex_api_default_key">trnsl.1.1.20151126T092912Z.366a7389b1bb3869.ffe45722eda47f45e459a47a3a8048d68c844baa</string>
-	<string name="yandex_api_base_host_url">https://translate.yandex.net</string>
+	<string name="yandex_api_default_key" translatable="false">trnsl.1.1.20151126T092912Z.366a7389b1bb3869.ffe45722eda47f45e459a47a3a8048d68c844baa</string>
+	<string name="yandex_api_base_host_url" translatable="false">https://translate.yandex.net</string>
 	<string name="yandex_api_incorrect_key">Incorrect API key!</string>
 	<string name="yandex_api_http_error_code">HTTP error: %d</string>
 	<string name="yandex_api_http_error_message">HTTP error: %s</string>
