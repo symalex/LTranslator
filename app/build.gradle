@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.0"
     defaultConfig {
-        applicationId "ru.web24nsk.ltranslator"
+        applicationId "ru.web24nsk.ltranslator1"
         minSdkVersion 18
         targetSdkVersion 23
         versionCode 1
